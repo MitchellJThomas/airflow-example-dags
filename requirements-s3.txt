@@ -1,0 +1,6 @@
+# S3 Protocol Support for Airflow 3.0.2
+# Install these dependencies to enable S3 ObjectStoragePath functionality
+
+apache-airflow-providers-amazon[s3fs]
+s3fs>=2023.1.0
+aiobotocore>=2.4.0
